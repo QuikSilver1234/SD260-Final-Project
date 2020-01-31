@@ -10,6 +10,7 @@ const Posts = props => {
       <input placeholder="comment something..." />
       <button type="submit">Post Comment</button>
       <button onClick={props.toggleLike}>Like</button>
+      {/* Dhruv assisted with setting up Facebook Emoji  */}
       {props.toggle && (
         <div>
           <FacebookEmoji type="like" />
