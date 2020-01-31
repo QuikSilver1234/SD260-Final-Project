@@ -5,6 +5,7 @@ import Form from "./form";
 import Posts from "./posts";
 class App extends Component {
   state = {
+    toggle: false,
     formValue: "",
     people: [
       "Bjergsen",
@@ -150,6 +151,12 @@ class App extends Component {
       }
     ]
   };
+  toggleLike = () => {
+    console.log(this.state.toggle);
+    let togglestate = !this.state.toggle;
+    this.setState({ toggle: togglestate });
+  };
+
   handleChange = data => {
     console.log(data);
     this.setState({ formValue: data });
@@ -206,7 +213,12 @@ class App extends Component {
         </div>
         <div>
           {this.state.info.map(post => (
-            <Posts key={post.id} info={post} />
+            <Posts
+              key={post.id}
+              info={post}
+              toggleLike={this.toggleLike}
+              toggle={this.state.toggle}
+            />
           ))}
         </div>
       </div>

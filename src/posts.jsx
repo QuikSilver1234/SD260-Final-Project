@@ -9,18 +9,19 @@ const Posts = props => {
       <p>add a comment:</p>
       <input placeholder="comment something..." />
       <button type="submit">Post Comment</button>
-      <button>Like</button>
-      <div>
-        <FacebookEmoji type="like" />
-        <FacebookEmoji type="love" />
-        <FacebookEmoji type="wow" />
-        <FacebookEmoji type="yay" />
-        <FacebookEmoji type="angry" />
-        <FacebookEmoji type="haha" />
-        <FacebookEmoji type="sad" />
-      </div>
+      <button onClick={props.toggleLike}>Like</button>
+      {props.toggle && (
+        <div>
+          <FacebookEmoji type="like" />
+          <FacebookEmoji type="love" />
+          <FacebookEmoji type="wow" />
+          <FacebookEmoji type="yay" />
+          <FacebookEmoji type="angry" />
+          <FacebookEmoji type="haha" />
+          <FacebookEmoji type="sad" />
+        </div>
+      )}
       <h5>Comments:</h5>
-
       {props.info.comments.map(comment => {
         return (
           <div className="comments">
