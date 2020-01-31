@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/SD260-Final-Project/static/css/main.01db78e1.chunk.css",
+    "main.js": "/SD260-Final-Project/static/js/main.e432078a.chunk.js",
+    "main.js.map": "/SD260-Final-Project/static/js/main.e432078a.chunk.js.map",
+    "runtime-main.js": "/SD260-Final-Project/static/js/runtime-main.38aee715.js",
+    "runtime-main.js.map": "/SD260-Final-Project/static/js/runtime-main.38aee715.js.map",
+    "static/css/2.1a08bad1.chunk.css": "/SD260-Final-Project/static/css/2.1a08bad1.chunk.css",
+    "static/js/2.781ff533.chunk.js": "/SD260-Final-Project/static/js/2.781ff533.chunk.js",
+    "static/js/2.781ff533.chunk.js.map": "/SD260-Final-Project/static/js/2.781ff533.chunk.js.map",
+    "index.html": "/SD260-Final-Project/index.html",
+    "precache-manifest.a418101394693e0dbe05fa073ed54c41.js": "/SD260-Final-Project/precache-manifest.a418101394693e0dbe05fa073ed54c41.js",
+    "service-worker.js": "/SD260-Final-Project/service-worker.js",
+    "static/css/2.1a08bad1.chunk.css.map": "/SD260-Final-Project/static/css/2.1a08bad1.chunk.css.map",
+    "static/css/main.01db78e1.chunk.css.map": "/SD260-Final-Project/static/css/main.01db78e1.chunk.css.map",
+    "static/js/2.781ff533.chunk.js.LICENSE": "/SD260-Final-Project/static/js/2.781ff533.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.38aee715.js",
+    "static/css/2.1a08bad1.chunk.css",
+    "static/js/2.781ff533.chunk.js",
+    "static/css/main.01db78e1.chunk.css",
+    "static/js/main.e432078a.chunk.js"
+  ]
+}
